@@ -7,13 +7,15 @@
 
 > - 在此之前，你需要注册一个ppt生成网站的账号：https://www.mindshow.fun/#/login
 
-- > 然后在autoMakePPT.py里更改你的账号密码
-
-  > - （chatGPTApi.py里的API看所需）
+> 然后在autoMakePPT.py里更改你的账号密码（chatGPTApi.py里的API看所需）
 
 运行output/autoGetBaiduCookies.exe或者test2.py获取到你百度账号的cookies，然后在百度文库创作中心官网根据页面脚本（output/百度文库创作中心测试.user.js）选择多个目标任务，运行main.py根据程序提示即可运行。
 
 经过三个账号测试，平均通过率：4/10
+
+> 部分效果演示：
+
+<video src="./output/show.mp4"/>
 
 #### 之外
 
