@@ -14,8 +14,8 @@
 经过三个账号测试，平均通过率：4/10
 
 > 部分效果演示：
-
-<video src="./output/show.mp4"/>
+>
+> https://www.bilibili.com/video/BV1Li4y1B7VR/
 
 #### 之外
 
