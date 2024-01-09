@@ -41,12 +41,12 @@ def startAutoMake(titleName, content, choice = 2):
     email_input = driver.find_element(By.XPATH, "//input[@placeholder='请输入您的邮箱/手机号']")
     login_button = driver.find_element(By.XPATH, "//div[@class='login_btn'][contains(text(), '立即登录')]")
     # Enter the email/phone number into the input field
-    email_input.send_keys("17896630848")
+    email_input.send_keys("17896630848")  # 账号
     # Click the "立即登录" button
     login_button.click()
     driver.implicitly_wait(5)
     pwd_input = driver.find_element(By.XPATH, "//input[@placeholder='请输入密码']")
-    pwd_input.send_keys("www.scf520")
+    pwd_input.send_keys("你的密码")  # 密码
     yes_button = driver.find_element(By.XPATH, "//div[@class='login_btn'][contains(text(), '登录')]")
     yes_button.click()
     driver.implicitly_wait(5)

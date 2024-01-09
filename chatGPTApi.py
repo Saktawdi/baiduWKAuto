@@ -1,9 +1,9 @@
 import requests
 
 def sendMsg(question):
-    url = 'https://ai.fakeopen.com/v1/chat/completions'
+    url = 'https://ai.fakeopen.com/v1/chat/completions'  # 用官方原生的需要注意代理问题
     headers = {
-        'Authorization': 'Bearer pk-VQdwTzt2G01U0fU_i-yXptwzcvr3rg4Xgv96L3VSNpM',
+        'Authorization': 'Bearer 你的API',
         'Content-Type': 'application/json',
     }
     data = {
